@@ -9,18 +9,16 @@ export default defineConfig(({ command }: ConfigEnv) => {
             manifest: true,
             outDir: "public/dist",
             rollupOptions: {
-                input: {
-                    app: "resources/ts/app.ts",
-                },
+                input: "resources/ts/app.ts",
             },
         },
         server: {
             strictPort: true,
             port: 3030,
             // https: true,
-            hmr: {
-                host: "localhost",
-            },
+            // hmr: {
+            //     host: "localhost",
+            // },
         },
         plugins: [
             vue()
