@@ -16,9 +16,9 @@ export default defineConfig(({ command }: ConfigEnv) => {
             strictPort: true,
             port: 3030,
             // https: true,
-            // hmr: {
-            //     host: "localhost",
-            // },
+            hmr: {
+                host: "localhost",
+            },
         },
         plugins: [
             vue()
