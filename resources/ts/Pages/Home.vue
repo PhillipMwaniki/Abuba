@@ -1,5 +1,5 @@
 <template>
-    <h1>Howdy</h1>
+    <h1 class="uppercase tracking-wide text-lg text-indigo-600 font-bold">Howdy</h1>
 </template>
 
 <script lang="ts">
