@@ -1,5 +1,5 @@
 import { createApp, h } from "vue"
-import { App, plugin as inertiaPlugin } from "@inertiajs/inertia-vue3"
+import { App, plugin as inertiaPlugin, Link, Head } from "@inertiajs/inertia-vue3"
 
 import '../css/app.css'
 
@@ -15,4 +15,6 @@ createApp({
         }),
 })
     .use(inertiaPlugin)
+    .component('InertiaHead', Head)
+    .component('InertiaLink', Link)
     .mount(el)
