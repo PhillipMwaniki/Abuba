@@ -1,5 +1,7 @@
 import { createApp, h } from "vue"
 import { App, plugin as inertiaPlugin, Link, Head } from "@inertiajs/inertia-vue3"
+import { Ziggy } from './routes/ziggy'
+import { ZiggyVue } from "ziggy-js/dist/vue"
 
 import '../css/app.css'
 
@@ -15,6 +17,7 @@ createApp({
         }),
 })
     .use(inertiaPlugin)
+    .use(ZiggyVue, Ziggy)
     .component('InertiaHead', Head)
     .component('InertiaLink', Link)
     .mount(el)
