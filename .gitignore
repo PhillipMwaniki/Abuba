@@ -17,3 +17,4 @@ yarn-error.log
 /resources/ts/app.js.map
 /resources/ts/**/**/*.js
 /vite.config.js.map
+/vite.config.js
