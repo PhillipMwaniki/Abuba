@@ -1,7 +1,8 @@
 {
     "scripts": {
         "dev": "vite --host=lvvti.test",
-        "prod": "vite build"
+        "prod": "vite build",
+        "routes": "php ./artisan ziggy:generate resources/routes/ziggy.js"
     },
     "private": true,
     "dependencies": {
