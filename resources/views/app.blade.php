@@ -18,6 +18,7 @@
     @inertiaHead
 </head>
 <body>
+    <x-translations></x-translations>
 @inertia
 </body>
 </html>

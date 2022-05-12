@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <inertia-link :href="route('home')">Home</inertia-link>
+        <inertia-link :href="route('home')">{{ __('home') }}</inertia-link>
     </nav>
     <h1 class="uppercase tracking-wide text-lg text-indigo-600 font-bold">Howdy</h1>
 </template>
